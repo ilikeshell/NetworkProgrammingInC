@@ -8,3 +8,5 @@ add_executable(NetworkProgrammingInC source/make_socket.c)
 add_executable(server_read source/server_read.c lib/common.h lib/read.c)
 
 add_executable(client_send source/client_send.c lib/common.h lib/log.c)
+add_executable(udpserver source/udpserver.c)
+add_executable(udpclient source/udpclient.c lib/common.h lib/log.c)

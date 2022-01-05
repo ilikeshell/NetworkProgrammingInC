@@ -5,7 +5,7 @@
 #include <errno.h>
 #include <arpa/inet.h>   //inet_pton
 
-#define MESSAGE_SIZE    102400
+#define MESSAGE_SIZE    1024000
 
 void send_data(int sockfd){
     char *query;

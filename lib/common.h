@@ -20,4 +20,9 @@ size_t readn(int fd, void* buffer, size_t size);
 
 void error(int status, int err, char *fmt, ...);
 
+
+#define     SERV_PORT       43211
+#define     BUFFER_SIZE     4096
+#define     MAXLINE         4096
+
 #endif //_COMMON_H_

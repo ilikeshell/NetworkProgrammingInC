@@ -15,7 +15,7 @@ void read_data(int connfd) {
             return;
         time++;
         fprintf(stdout, "1K read for %d \n", time);
-        usleep(1000);
+        usleep(10000);
     }
 }
 
